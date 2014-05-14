@@ -1,0 +1,23 @@
+{
+  "name": "module",
+  "version": "0.0.0",
+  "description": "module,tags",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "should": "*"
+  }
+}
