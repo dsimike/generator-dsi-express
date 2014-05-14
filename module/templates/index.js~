@@ -1,6 +1,0 @@
-/* <%=name %> Module */
-
-module.exports=function(){
-	
-
-}
