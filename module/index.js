@@ -17,7 +17,7 @@ var ModuleGenerator = yeoman.generators.NamedBase.extend({
 
 		    this.installDependencies({bower:false,npm:true});
 
-		    console.log('Navigate to this modules directory and run "npm test" to test out this module');
+		    console.log('Navigate to this modules directory and rrn "npm test" to test out this module');
 	    }
     })
   },

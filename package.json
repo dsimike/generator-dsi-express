@@ -1,14 +1,14 @@
 {
   "name": "generator-dsi-express",
   "version": "0.0.0",
-  "description": "Yeoman generator",
+  "description": "Yeoman Generator for Node, Express Application",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "ajaxmonk/generator-dsi-express",
+  "repository": "dsimike/generator-dsi-express",
   "author": {
     "name": "Michael Watson",
-    "email": "ajaxmonk@gmail.com",
-    "url": "https://github.com/ajaxmonk"
+    "email": "michael.watson@gmail.com",
+    "url": "https://github.com/dsimike"
   },
   "engines": {
     "node": ">=0.10.0"
