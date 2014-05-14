@@ -51,6 +51,7 @@ var DsiExpressGenerator = yeoman.generators.Base.extend({
 
     this.copy('_package.json', 'package.json');
     this.copy('_bower.json', 'bower.json');
+    this.copy('_groc.json', '.groc.json');
   },
 
   projectfiles: function () {

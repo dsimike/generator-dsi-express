@@ -1,2 +1,2 @@
-/*global angular */
+/* global angular */
 angular.module('dsiApp',[]).config();

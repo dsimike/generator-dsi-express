@@ -9,11 +9,6 @@ var DsiExpressGenerator = yeoman.generators.Base.extend({
   constructor:function(){
 	yeoman.generators.Base.apply(this,arguments);
 
-	this.hookFor('dsi-express:module',{
-		options:{
-		   'skip-install':true
-		}
-	});
   },
   init: function () {
     this.pkg = require('../package.json');
