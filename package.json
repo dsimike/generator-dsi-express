@@ -1,6 +1,6 @@
 {
   "name": "generator-dsi-express",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Yeoman Generator for Node, Express Application",
   "license": "MIT",
   "main": "app/index.js",
