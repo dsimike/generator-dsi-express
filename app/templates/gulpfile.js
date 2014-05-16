@@ -9,7 +9,7 @@ var onError=function(err){
 
 //Leaving this task commented out until install fix
 gulp.task('default',function(){
-	return gulp.src(['./server/**/*.js','./client/js/**/*.js','./test/**/*.js'])
+	return gulp.src(['./server/**/*.js','./test/**/*.js'])
 	.pipe(jshint().on('error',onError))
 	.pipe(jshint.reporter('jshint-stylish'))
 	.pipe(jshint.reporter('fail'))
@@ -20,4 +20,4 @@ gulp.task('mocha',function(){
 	.pipe(mocha({reporter:'nyan'}).on('error',onError));
 })
 
-var mochaWatcher=gulp.watch(['./server/**/*.js','./client/js/**/*.js','./test/*.js'],['default','mocha']);
+var mochaWatcher=gulp.watch(['./server/**/*.js','./test/*.js'],['default','mocha']);

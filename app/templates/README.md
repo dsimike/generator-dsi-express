@@ -54,6 +54,10 @@ Quickly scaffold a new module
 
 
 
+## Changelog
+
+* 2014-5-26 -- Removed Angular code to keep app folder blank and ready for any structure or type of content
+
 
 
 

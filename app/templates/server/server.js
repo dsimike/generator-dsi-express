@@ -1,14 +1,12 @@
-var express = require('express');
-var path = require('path');
-var favicon = require('static-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
-
-var ECT=require('ect');
-var ectRenderer=ECT({watch:true,root:__dirname+'/views',ext:'.html'});
-
-var routes = require('./routes/index');
+var	express = require('express'),
+		path = require('path'),
+		favicon = require('static-favicon'),
+		cookieParser = require('cookie-parser'),
+		bodyParser = require('body-parser'),
+		logger=require('morgan'),
+		ECT=require('ect'),
+		ectRenderer=ECT({watch:true,root:__dirname+'/views',ext:'.html'}),
+		routes = require('./routes/index');
 
 var app = express();
 
@@ -22,7 +20,7 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'app')));
 
 app.use('/', routes);
 
@@ -57,6 +55,5 @@ app.use(function(err, req, res, next) {
         error: {}
     });
 });
-
 
 module.exports = app;

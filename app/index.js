@@ -45,7 +45,7 @@ var DsiExpressGenerator = yeoman.generators.Base.extend({
 
   app: function () {
 
-    this.directory('client','client');
+    this.directory('app','app');
     this.directory('server','server');
     this.directory('test','test');
 
